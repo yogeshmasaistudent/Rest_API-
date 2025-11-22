@@ -1,11 +1,8 @@
-# ⭐⭐⭐ FINAL MASTER README — FULL TEACHING SCRIPT (SPEAKING MODE + CODE + THEORY) ⭐⭐⭐
-
-## "The Ultimate Beginner-Friendly REST API Class"
-> *(Copy–paste directly into your README.md)*
+# ⭐⭐⭐ Welcome to today’s REST API session.⭐⭐⭐
 
 ***
 
-## 🎤 INTRODUCTION — (Start Your Class With This)
+##  INTRODUCTION — 
 
 > "Hi everyone, welcome to this session.  
 > Today we will learn REST APIs in the clearest way possible.  
@@ -16,7 +13,7 @@
 
 ***
 
-## 🧠 STEP 1 — Understanding Backend (Speak This First)
+## 🧠 STEP 1 — Understanding Backend 
 
 > "Before writing any code, I want you to understand what backend actually means.  
 > Backend is the brain of an application.  
@@ -36,7 +33,7 @@
 
 ***
 
-## 🧠 STEP 2 — What is a REST API? (Explain Before Coding)
+## 🧠 STEP 2 — What is a REST API? 
 
 > "REST API is simply a way for frontend and backend to talk to each other.  
 > It uses specific methods to tell the server what we want to do.  
@@ -55,7 +52,7 @@
 
 ***
 
-## 🏗️ STEP 3 — Project Folder Structure (Speak First)
+## 🏗️ STEP 3 — Project Folder Structure 
 
 > "Before writing APIs, we must set up our backend project properly.  
 > Professional developers never put everything in one file.  
@@ -117,7 +114,7 @@ app.listen(8080, () => {
 const mongoose = require("mongoose");
 
 const connectDB = () => {
-  return mongoose.connect("mongodb://127.0.0.1:27017/rest_demo");
+  return mongoose.connect("mongodb+srv://kushawahyogesh93:Yogesh@cluster0.j9tkecq.mongodb.net/?appName=Cluster0");
 };
 
 module.exports = connectDB;
