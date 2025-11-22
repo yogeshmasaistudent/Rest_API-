@@ -178,7 +178,6 @@ module.exports = router;
 
 ### 🟦 METHOD 1 — GET (Read Data)
 
-**🎤 SPEAK THIS FIRST:**
 > "GET is used to read data from the server.  
 > GET never changes the database.  
 > It is the most commonly used method."  
@@ -206,7 +205,6 @@ GET http://localhost:8080/api/students
 
 ### 🟩 METHOD 2 — POST (Create Data)
 
-**🎤 SPEAK THIS FIRST:**
 > "POST is used to create new data.  
 > If a new user signs up or a new student is added — that is POST."
 
@@ -241,7 +239,6 @@ Send JSON body:
 
 ### 🟧 METHOD 3 — PUT (Full Replace)
 
-**🎤 SPEAK THIS FIRST:**
 > "PUT is used for full update.  
 > It replaces the entire record with new data."  
 > Real-life example:  
@@ -267,7 +264,6 @@ PUT http://localhost:8080/api/students/<id>
 
 ### 🟨 METHOD 4 — PATCH (Partial Update)
 
-**🎤 SPEAK THIS FIRST:**
 > "PATCH updates only the fields you send.  
 > PATCH does NOT replace the whole document."  
 > Real-life example:  
@@ -292,7 +288,6 @@ PATCH http://localhost:8080/api/students/<id>
 
 ### 🟥 METHOD 5 — DELETE (Remove Data)
 
-**🎤 SPEAK THIS FIRST:**
 > "DELETE is used to remove a record."  
 > Example:  
 > "Deleting an Instagram post."
