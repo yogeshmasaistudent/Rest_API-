@@ -107,6 +107,9 @@ app.listen(8080, () => {
 
 > "Now we need to connect to MongoDB.  
 > We will keep the connection logic in a separate file inside the config folder."
+> “Mongoose is a library that helps Node.js talk to MongoDB easily.
+It gives us schemas so our data stays structured, and it provides simple functions to save, update, delete, and read data.
+Instead of writing complex queries, Mongoose lets us work with JavaScript objects directly.”
 
 **Create: `config/db.js`**
 
