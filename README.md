@@ -113,8 +113,14 @@ app.listen(8080, () => {
 ```js
 const mongoose = require("mongoose");
 
-const connectDB = () => {
-  return mongoose.connect("mongodb+srv://kushawahyogesh93:Yogesh@cluster0.j9tkecq.mongodb.net/?appName=Cluster0");
+const connectDB = async() => {
+    try {
+        await mongoose.connect("mongodb+srv://kushawahyogesh93:Yogesh@cluster0.j9tkecq.mongodb.net/Codinggita?appName=Cluster0");
+        console.log("MongoDB connected");
+    } catch (error) {
+        console.error("MongoDB connection failed:", error);
+        process.exit(1);
+    }
 };
 
 module.exports = connectDB;
