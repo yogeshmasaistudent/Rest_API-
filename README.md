@@ -70,6 +70,37 @@ rest-demo/
 ```
 
 > "This structure keeps code clean and understandable for beginners."
+>
+> ---
+
+#### 📝 Step-by-Step Project Setup
+
+**1. Create Project Folder**
+
+```bash
+mkdir rest-demo
+cd rest-demo
+```
+
+**2. Initialize Node Project**
+
+```bash
+npm init -y
+```
+
+**3. Install Required Dependencies**
+
+```bash
+npm install express mongoose
+```
+
+You can add more dependencies as needed (like dotenv or nodemon):
+
+```bash
+npm install dotenv nodemon
+```
+
+> "Now students can copy-paste these commands and quickly set up the project structure!"
 
 ---
 
