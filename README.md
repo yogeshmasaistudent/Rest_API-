@@ -5,7 +5,7 @@
 ## INTRODUCTION —
 
 > "Hi everyone, welcome to this session.  
-> Today we will learn REST APIs in the clearest way possible.  
+> Today we will learn REST APIs in the clearest and essay way . 
 > We will build everything step-by-step, from complete basics to fully functional APIs using Node.js and MongoDB.  
 > I will explain each method (GET, POST, PUT, PATCH, DELETE) one at a time.  
 > We will write theory → then code → then test it → then move to the next part.  
