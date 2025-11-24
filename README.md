@@ -109,6 +109,12 @@ npm install dotenv nodemon
 > "Let's start from the most basic file — our entry point.  
 > Just like index.html is the starting point for frontend,  
 > index.js is the starting point for backend."
+>
+> **What is Express?**
+> Express is a fast, lightweight framework for Node.js that makes building web servers and APIs super easy.
+> Without Express, we would need to write hundreds of lines of code just to handle requests and responses.
+> Express gives us simple functions like `app.get()`, `app.post()` to handle different routes.
+> Think of Express as a helpful assistant that manages all the complex backend logic for us.
 
 **Create `index.js`:**
 
@@ -140,7 +146,8 @@ app.listen(8080, () => {
 
 > "Now we need to connect to MongoDB.  
 > We will keep the connection logic in a separate file inside the config folder."  
-> "Mongoose is a library that helps Node.js talk to MongoDB easily. It gives us schemas so our data stays structured, and it provides simple functions to save, update, delete, and read data. Instead of writing complex queries, Mongoose lets us work with JavaScript objects directly."
+**What is Mongoose?**
+> > "Mongoose is a library that helps Node.js talk to MongoDB easily. It gives us schemas so our data stays structured, and it provides simple functions to save, update, delete, and read data. Instead of writing complex queries, Mongoose lets us work with JavaScript objects directly."
 
 **Create: `config/db.js`**
 
