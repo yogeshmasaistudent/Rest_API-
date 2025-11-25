@@ -439,6 +439,26 @@ app.listen(8080, () => {
 
 ---
 
+
+**Bonus for You**
+
+```
+## 🔐 CORS Setup
+
+To allow the frontend (running on a different port) to access the backend API, I enabled **CORS** in my Express server.
+
+### ✔️ Install CORS
+```bash
+npm install cors
+```
+
+```
+const cors = require("cors");
+app.use(cors());
+```
+
+---
+
 ## 🎤 CLOSING STATEMENT (End Your Class With This)
 
 > "Congratulations!  
